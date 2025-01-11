@@ -102,11 +102,13 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 10vh;
+  perspective: 1000px;
 }
 
 .about {
   animation: parllax-bg9 linear;
   animation-timeline: scroll();
+  background-color: rgba(255, 255, 255, 0.03);    height: 50vh; width: 85%; display: flex; border-radius: 50px;   
 }
 
 
@@ -206,4 +208,25 @@ body {
   height: 10vh;
   bottom: 211px;
   left: -7px;
+}
+.profile-section{
+  background-color: grn; height: 100%; width: 30%; display: flex; justify-content: center; align-items: center; 
+}
+.profile{
+  background-image: url(varun.png); background-position: left; background-size: contain; height: 90%; width: 90%; border-radius: 100%;  box-shadow: 0px 0px 150px #FFAF1B; border: none; 
+}
+.text-thing{
+  background-color:e; width: 70%; height: 100%;  display: flex; flex-direction: column;    
+}
+.about-para{
+  color: white; font-size: 150px;  height:150px; margin-top: 120px;
+}
+.varun-para{
+  color: white; font-size: 280px;  height:200px;
+}
+.and-para{
+  color: white; font-size: 150px;  height:150px; margin-top: 120px;
+}
+.craft-para{
+  color: white; font-size: 100px; margin-top: 150px; font-weight: lighter; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  height:200px; 
 }
