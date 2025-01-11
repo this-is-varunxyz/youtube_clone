@@ -5,6 +5,8 @@
     font-weight: 400;
     font-style: normal;
   }
+  box-sizing: border-box;
+  padding: 0;
 }
 .parllax {
   height: 100vh;
