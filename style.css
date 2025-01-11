@@ -1,49 +1,207 @@
-
-.iconss:hover{
-    border-radius: 100%;
-    background-color: rgb(245, 245, 245);
+* {
+  margin: 0;
+  .average-regular {
+    font-family: "Average", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+.parllax {
+  height: 100vh;
+ 
+  margin-bottom: 1000px;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background-color: rgba(33, 0, 2, 255);
+  
 }
-#grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    row-gap: 3vw;
+
+.parllax-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.parllax .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-size: auto 100%;
+  background-position: center bottom;
+}
+
+/* Background layers with optimized animations */
+.parllax .bg1 {
+  background-image: url(firewatch/0z.png);
+  animation: parllax-bg1 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg2 {
+  background-image: url(firewatch/1zz.png);
+  animation: parllax-bg2 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg3 {
+  background-image: url(firewatch/2.png);
+  animation: parllax-bg3 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg4 {
+  background-image: url(firewatch/3zz.png);
+  animation: parllax-bg4 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg5 {
+  background-image: url(firewatch/4zz.png);
+  animation: parllax-bg5 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg6 {
+  background-image: url(firewatch/5zz.png);
+  animation: parllax-bg6 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg7 {
+  background-image: url(firewatch/6zz.png);
+  animation: parllax-bg7 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg8 {
+  background-image: url(firewatch/7zz.png);
+  animation: parllax-bg8 linear;
+  animation-timeline: scroll();
+}
+
+.parllax .bg9 {
+  background-image: url(firewatch/8zz.png);
+  animation: parllax-bg9 linear;
+  animation-timeline: scroll();
+}
+.parllax .bg10{
+  color: white;
+  z-index:1;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 400px;
+ 
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.about {
+  animation: parllax-bg9 linear;
+  animation-timeline: scroll();
+}
+
+
+
+
+@keyframes parllax-bg1 {
+  to {
+    transform: translateY(200px);
+  }
+}
+
+@keyframes parllax-bg2 {
+  to {
+    transform: translateY(500px);
+  }
+}
+
+@keyframes parllax-bg3 {
+  to {
+    transform: translateY(800px);
+  }
+}
+
+@keyframes parllax-bg4 {
+  to {
+    transform: translateY(1100px);
+  }
+}
+
+@keyframes parllax-bg5 {
+  to {
+    transform: translateY(1400px);
+  }
+}
+
+@keyframes parllax-bg6 {
+  to {
+    transform: translateY(1700px);
+  }
+}
+
+@keyframes parllax-bg7 {
+  to {
+    transform: translateY(2000px);
+  }
+}
+
+@keyframes parllax-bg8 {
+  to {
+    transform: translateY(2300px);
+  }
+}
+
+@keyframes parllax-bg9 {
+  to {
+    transform: translateY(2600px);
+  }
+}
+.anime{
+  height: 15vh;   background-color: #FFAF1B; position: relative; bottom: 277px; left: -5px; width: 1px;
+  transition: right 2s ease;
+  transition: width 2s ease ;
+  z-index: 0;
+}
+
+.next:hover{
+  
+  .anime{
+    right: -100px;
+    width: 100%;
+
+  }
+  .anime2{
+    right: -100px;
+    width: 100%;
+
+  }
+  
+ 
+  border: none;
+  color: black;
+  
+  cursor: pointer;
+  .next-span{
+  color: rgb(33, 0, 2);
     
-    
-}
-
-.profile-div:hover{
-    position: relative;
-    top: 2px;
-    left: 2px;
-    box-shadow: none;
-    border: 1px solid black;
+  }
 
 }
-.profile-div{
-    box-shadow: 2px 2px 5px black;
-} 
-button:active{
-    cursor: pointer;
-    box-shadow: none;
-    position: relative;
-    top: 2px;
-    left: 2px;
-    background-color: pink;
-    
-
-
-} 
-button{
-    box-shadow: 2px 2px 5px black;
-    background-color: rgb(24, 119, 242);
-
-} 
-p{
-    font-size: small;
+.anime2{
+  height: 15vh;   background-color: #FFAF1B; position: relative; bottom: 270px; left: -5px; width: 1px;
+  transition: right 2s ease;
+  transition: width 2s ease ;
+  z-index: 0;
+}
+.anime3{
+  height: 10vh;
+  bottom: 211px;
+  left: -7px;
 }

@@ -1,49 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube-navbar</title>
-    <link rel="stylesheet" href="youtube.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beautiful Button</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Average&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+
+
 </head>
 
-<body>
-    <div class="flex-box" style="background-color: aqua;">
-        <div style="background-color:  black; " class="left">
-            <div  style=" width: 15%;height: 75%; background-color: red; padding-top: 2.5%;" class="sidebar">
-                <img width="100%" height="100%" src="sidebar-icon-16.jpg" alt="">
-            </div>
-            <div style=" width: 30%; background-color: green; display: flex; " class="youtubelogo">
-                <img width="100%" height="100%" src="icons/youtube-logo.svg" alt="">
-            </div>
+<body >
+    <div class="parllax-container">
+        <div class="parllax">
+            <div class="bg bg1"></div>
+            <div class="bg bg2"></div>
+            <div class="bg bg3"></div>
+            <div class="bg bg4"></div>
+            <div class="bg bg5"></div>
+            <div class="bg bg6"></div>
+            <div class="bg bg7"></div>
+            <div class="bg bg8"></div>
+            <div class="bg bg9"></div>
+            <div class="bg bg10"> <p>This is Varun</p> </div>
 
         </div>
-        <div class="middle" style="background-color: white;">
-            <div class="input" style="background-color: yellow;padding-top: .75vw; " >
-                <input width="100%" height="100%" type="text" placeholder="Search" style="width: 25vw; height: 1.7vw;">
-            </div>
-            
-            <div style="background-color: purple; width: 3vw; height: 50%; padding-top: 1vw;" class="search" >
-                <img width="100%" height="100%" src="icons/search.svg"  alt="">
-            </div>
-            <div  style="background-color: violet;" class="mic">
-                adf
-            </div>
+    </div>
+    <div class="about-section">
 
-        </div>
-        <div class="right" style="background-color: brown;">
-            <div class="video">
-                c
+        <div class="about" style="background-color: rgba(255, 255, 255, 0.03);    height: 50vh; width: 85%; display: flex; border-radius: 50px;  ">
+            <div class="profile-section" style="background-color: grn; height: 100%; width: 30%; display: flex; justify-content: center; align-items: center; " >
+                <div class="profile" style="background-image: url(varun.png); background-position: left; background-size: contain; height: 90%; width: 90%; border-radius: 100%;  box-shadow: 0px 0px 150px #FFAF1B; border: none; " >
+                    
+
+                </div>
             </div>
-            <div class="grid">
-                d
-            </div>
-            <div class="notficaion">
-                e
-            </div>
-            <div class="profilepic">
-                k
+            <div class="text-thing  " style="background-color:e; width: 70%; height: 100%;  display: flex; flex-direction: column;     " > 
+<P style="color: white; font-size: 150px;  height:150px; margin-top: 120px;">Hello, it’s ME</P>
+<p style="color: white; font-size: 280px;  height:200px; "> <span style="color: #FFAF1B;" >Varun</span> Kushwah</p>
+<P style="color: white; font-size: 150px;  height:150px; margin-top: 120px;">And i’m <span style="color: #FFAF1B;" >Game developer</span></P>
+<p style="color: white; font-size: 100px; margin-top: 150px; font-weight: lighter; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  height:200px; "> Crafting games while expanding my skills in web development.</p>
+
+
             </div>
 
         </div>
@@ -52,7 +60,13 @@
 
 
     </div>
-
+    <div class="skills-section" style=" width: 100%; height: 1000px; display: flex; justify-content: center; align-items: center; margin-bottom: 2000px;  animation: parllax-bg9 linear;
+  animation-timeline: scroll(); " >
+       <button class="next" onclick="location.href='about.html';"
+ 
+  style="height: 15vh; width: 15vw; font-size: 200px; color: #FFAF1B; border: 10px solid #FFAF1B; background-color: rgb(33, 0, 2) ; border-radius: 10px; font-weight: lighter; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   "> <span class="next-span" style="position: relative; top: -10px; z-index: 1; transition: all 2s ease;" >Next</span> <div class="anime"></div> </button>
+    </div>
+<audio  autoplay loop src="firewatch/audio.mp3"></audio>
 
 </body>
 

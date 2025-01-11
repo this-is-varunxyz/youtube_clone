@@ -1,0 +1,100 @@
+.dream{
+    width: 90%;
+    height: 1500px;
+    background-color: #973700;
+    
+    margin: 0 auto;
+    border-radius: 100px;
+    display: flex;
+    position: sticky;
+    box-shadow: 0px 0px 100px  black;
+    top: 100px;
+    margin-bottom: 300px;
+}
+.image{
+    height: 100%;
+    width: 1700px;
+    border-radius: 100px;
+    background-image: url(firewatch/dream.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.text{
+    width: 70%;
+    height: 100%;
+    border-radius: 100px;
+    font-size: 100px;
+    margin-left: 20px;
+    color: #FFAF1B;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.hill-climb{
+    background-image: url(firewatch/hill-climb.png);
+    
+
+    
+}
+.hill-climb-div{
+    top: 150px;
+}
+.radio{
+background-image: url(firewatch/radio.jpg);
+background-position: -600px;
+}
+.radio-div{
+    top: 200px;
+}
+.final-div{
+    top: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.thanks{
+    width: 100%;
+    height: 20%;
+    border-radius: 100px;
+    font-size: 200px;
+    margin-left: 20px;
+    color: #FFAF1B;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    
+    }
+    
+    .icons{
+        height: 200px;
+        background-repeat: no-repeat;
+
+        width: 200px;
+        
+        background-size: contain;
+        background-image: url(firewatch/bxl-instagram.svg);
+    }
+    .icon2{
+        background-image: url(firewatch/bxl-linkedin-square.svg);
+    }
+    
+    .icon3{
+        background-image: url(firewatch/bxl-twitter.svg);
+    }
+    .icon4{
+        background-image: url(firewatch/bxl-gmail.svg);
+    }
+    
+.varun{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    font-size: 100px;
+    margin-top: 50px;
+    background-color: #973700;
+}
